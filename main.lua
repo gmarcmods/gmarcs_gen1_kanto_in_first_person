@@ -1,0 +1,3 @@
+-- Modern companion entry. Shared source is materialized into release ZIPs.
+local mod=...
+return assert(load(assert(mod:read('lib/Entry.lua')),'@'..mod.path..'/lib/Entry.lua'))(mod,1)

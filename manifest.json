@@ -1,0 +1,30 @@
+{
+  "id": "gmarcs_gen1_kanto_in_first_person",
+  "name": "Gmarc's Gen 1 Kanto in First Person",
+  "version": "2.0.2",
+  "api": 2,
+  "entry": "main.lua",
+  "profile": "content",
+  "games": [
+    "gen1"
+  ],
+  "game_version": "0.0.0-dev || >=0.1.37 <2.0.0",
+  "category": "GRAPHICS",
+  "priority": 200,
+  "permissions": [
+    "engine_internals"
+  ],
+  "dependencies": [],
+  "optional_dependencies": [
+    "DRAMATIC_SHAPE",
+    "BATTLE_ART_VOXEL_FORK",
+    "DRAMALESS_SHAPE",
+    "TERRARIUM"
+  ],
+  "conflicts": [
+    "ds_fp_ceiling"
+  ],
+  "affects_link": false,
+  "description": "First-person interiors, caves, sky and atmosphere using the active voxel renderer and native gen1 graphics. Runtime integration; no file patching.",
+  "github": "gmarcmods/gmarcs_gen1_kanto_in_first_person"
+}
